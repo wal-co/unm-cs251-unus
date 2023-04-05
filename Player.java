@@ -78,7 +78,7 @@ public class Player {
         while (!cardPlayed) {
             // draw a card if the user has no matches and hasn't drawn a card
             if (hand.noMatches(game.getTopCard()) && !cardDrawn && !(game.getTopCard() instanceof None)) {
-                System.out.println("Your hand had no matches, a card was drawn.");
+                System.out.prntln("Your hand had no matches, a card was drawn.");
                 drawCards(1);
                 cardDrawn = true;
             }
