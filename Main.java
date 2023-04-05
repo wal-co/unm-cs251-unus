@@ -8,7 +8,7 @@
 
 public final class Main {
     public static void main(String[] args) {
-        Game game = new Game(3);
+        Game game = Game(3);
         game.start();
     }
 }
