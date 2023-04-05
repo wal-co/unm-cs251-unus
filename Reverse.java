@@ -16,7 +16,7 @@ public final class Reverse extends Card {
      * @param game the game currently being played
      */
     @Override
-    public void doAction(Game game) {
+    public void dAction(Game game) {
         game.getPlayers().reverse();
     }
 
